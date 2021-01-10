@@ -1,0 +1,211 @@
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:"Times New Roman";
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+} 
+
+/*  This is for top bar
+  */
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-right {
+  float: right;
+  background-color: rgb(255, 255, 255);
+}
+.header-right:hover {
+
+}
+.header-right a {
+  line-height: 70px;
+  padding: 0 25px;
+  color: black;
+  float: left;
+
+}
+
+/*  This is for Intro
+  */
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  /* background-image: url(download.jfif); */
+  background-size: contain;
+  color: white; 
+  background-color: black;
+}
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 65px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+  text-align: left;
+}
+.top-wrapper h2 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-left: 60px;
+  text-align: left;
+}
+
+
+
+.btn-wrapper {
+  margin: 20px 0;
+  margin-right: 90px;
+  text-align: right;
+}
+.btn {
+  padding: 10px 15px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+/*  This is for about me section
+  */
+.lesson-wrapper {
+  height: 600px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  /*background-color: #2fbee238;
+  */  
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+.heading h1{
+  text-align: center;
+  font-size: 40px;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.info{
+  text-align: left;
+  width: 70%;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+.info-title{
+  color: #d67456;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.info-detail{
+  color: #4d4d4d;
+  font-size: 35px;
+  font-family: "monospace";
+}
+.profilephoto {
+width: 30%;
+}
+
+
+/*  This is for timeline
+  */
+  .message-wrapper {
+    height: 900px;
+    padding-bottom: 80px;
+    background-color: #000000;
+
+  }
+
+   td {
+    padding: 15px;
+    
+  }
+
+  .vl {
+    border-left: 6px solid aqua;
+    height: 800px; 
+    margin-left: 50px;
+  }
+
+  .heading-timeline {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: aqua;
+  }
+  .heading-timeline a {
+    color: #FFFFFF;
+  }
+  .info-head{
+    padding-top: 10px;
+    color: #FFFFFF  ;
+  }
+  
+  .info-data{
+    color: #FFFFFF  ;
+    opacity: 0.7;
+  }
+  .info-date{
+    color: #FFFFFF  ;
+  }
+
+
+
+/*  This is for outro/ contact me
+  */
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: right;
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.btn-wrapper-down {
+  margin: 20px 0;
+  margin-right: 90px;
+  text-align: right;
+  float: left;
+}
+
+.Instagram {
+  background-color: #E1306C;
+}
+.LinkedIn {
+  background-color:#2867B2;  
+}
+.twitter {
+  background-color: #55acee;
+}
+.GitHub{
+ color: #000000;
+ background-color:#FFFFFF; 
+}
